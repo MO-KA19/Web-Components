@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    overflow-y: hidden;
+}
+
+.container {
+    width: 190vh;
+    height: 85vh;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    height: 350px;
+    width: 400px;
+    transition: 0.8s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card:hover{
+    cursor: pointer;
+    height: 650px;
+}
+
+.img {
+    height: 325px;
+    width: 400px;
+}
+
+.text {
+    height: 325px;
+    width: 400px;
+    background-color: white;
+    display: none;
+    transition: 0.8s;
+}
+
+#ico {
+    margin-top: 70px;
+    font-size: 100px;
+    color: #e81a30;
+}
+
+.img h1 {
+    color: #777;
+    padding: 50px;
+    width: fit-content;
+}
+
+p {
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: black;
+    width: fit-content;
+    text-align: left;
+    padding: 30px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+button {
+    width: 130px;
+    height: 50px;
+    border: 2px solid black;
+    position: relative;
+    right: 100px;
+    top: 40px;
+    font-size: larger;
+    transition: 0.6s;
+}
+
+.card:hover .text {
+    display: block;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    margin-left: 15px;
+}
+
+
+.card .img i:hover {
+    color: aqua;
+}
+
+#header {
+    position: relative;
+    top: 40px;
+    right: 50px;
+    font-size: 40px;
+    color: #bfbfbf;
+    display: inline-block;
+    width: fit-content;
+    border-bottom: solid 2px #e81a30;
+    transition: 0.5s;
+    padding-bottom: 25px;
+}
+#header:hover {
+    margin-right: 35px;
+}
+
+@media (max-width:768px) {
+    .container{
+        width: 300px;
+    }
+
+    #header {
+        font-size: 30px;
+        margin-bottom: 130px;
+        text-align: center;
+    }
+}
+.card:hover .img{
+    background-color: #ff0057;
+}
+.card:hover #ico {
+    color: #333;
+}

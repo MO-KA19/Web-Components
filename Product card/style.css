@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left,white,palevioletred);
+}
+
+
+.first_div{
+    border: solid 1px;
+    height: 550px;
+    width: 400px;
+    margin-left: 720px;
+    margin-top: 180px;
+    background:#80babf;
+}
+
+
+.second_div{
+    border: solid 2px;
+    height: 250px;
+    width: 395px;
+    margin-top: 23px;
+    border-radius: 0 200px 0 0;
+    background: #21222d;
+}
+
+
+.img{
+    height: 230px;
+    width: 230px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+
+.title{
+    color: white;
+    margin-left: 15px;
+}
+
+
+.des{
+    color: wheat;
+    font-style: normal;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.price{
+    color: white;
+    margin-left: 20px;
+    margin-top:40px;
+}
+
+
+.btn{
+    border-radius: 100px;
+    height: 60px;
+    width: 240px;
+    background: #30324a;
+    margin-left: 80px;
+    float: bottom;
+    margin-top: -150px;
+    font-size: 20px;
+    border: solid 3px;
+    color: white;
+}
+
+.btn:hover{
+    background:darkgreen;
+    cursor: pointer;
+
+}
+
+
+.rd{
+    margin-top: -35px;
+  }
+
+
+.love{
+    border-radius: 50%;
+    background-color: #496599;
+    margin-top: -55px;
+    float: right;
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+}
+
+
+.love:hover{
+    background: lime;
+    cursor: pointer;
+}
+
+.love:active{
+    background: red;
+}
