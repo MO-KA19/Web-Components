@@ -8,7 +8,7 @@ all rights reserved for UI,UX owners
 
 Live Demos:
 component-1: https://jolly-euclid-28b701.netlify.app
-component-2: https://blissful-goldwasser-d4e4e9.netlify.app
+component-2: https://elated-newton-0e6c46.netlify.app
 component-3: https://pensive-thompson-807744.netlify.app
 component-4: https://hopeful-roentgen-253b67.netlify.app
 component-5: https://suspicious-dijkstra-14e61a.netlify.app
