@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 200px;
+    position: relative;
+    height: 600px;
+    width: 400px;
+    border: solid 2px #dad7d7;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+img {
+    height: 220px;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 32px;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    padding-top: 55px;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 15px;
+    color: #808080;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.buy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: inherit;
+    height: 60px;
+    border-radius: 15px;
+}
+
+button {
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#det {
+    background-color: #808080;
+    background-color: #e6e3e3;
+}
+
+#buyNow {
+    color: #e6e3e3;
+    background-color: #b34bf8;
+}
+button:hover {
+    opacity: 0.8;
+}
