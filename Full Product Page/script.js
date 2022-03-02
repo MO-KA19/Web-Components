@@ -131,6 +131,8 @@ addToCart.onclick = function () {
 }
 
 
+
+
 // Delete from cart 
 let trashBasket = document.querySelector("#del");
 let order = document.querySelector("#order")
@@ -146,10 +148,3 @@ trashBasket.onclick = function () {
     let resDel = Multiplication(priceDel,order.innerHTML)
     total.innerHTML = resDel+"$"
 }
-
-
-
-
-
-
-
