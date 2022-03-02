@@ -1,1 +1,100 @@
-g
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+</head>
+<body>
+  <header>
+      <nav>
+        <img src="./images/icon-menu.svg" alt="burgercon" id="burger">
+        <img src="./images/logo.svg" alt="logo" class="logo">
+        <ul id="desul">
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Woman</li>
+          <li>About</li> 
+          <li>Contact</li>
+        </ul>
+
+        <div class="account">
+          <img src="./images/icon-cart.svg" alt="cart" class="cart">
+          <img src="./images/image-avatar.png" alt="avatar" class="avatar">
+        </div>
+
+          <div class="card">
+            <img src="./images/icon-close.svg" id="Cclose">
+            <h1>No thing in the cart</h1>
+            <img src="./images/shopCard.jpg" alt="prod" class="cardImg">
+            <div class="Cquant">
+                <h3 id="calc"><span id="price">0</span><span>X</span><span id="order">0</span><span>=</span></h3> <h3 id="total">0</h3>
+                <img src="./images/icon-delete.svg" id="del">
+            </div>
+
+            <button class="Cout">CheckOut</button>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <aside>
+    <img src="./images/icon-close.svg" style="padding:30px;" id="close">
+
+    <div class="list">
+      <ul>
+        <li>Collections</li>
+        <li>Men</li>
+        <li>Woman</li>
+        <li>About</li> 
+        <li>Contact</li>
+      </ul>
+    </div>
+  </aside>
+  <center>
+    <main>
+
+        <div class="container">
+            <img src="./images/image-product-1.jpg" alt="prod-1" class="active">
+            <div class="thumbs">
+                <img src="./images/image-product-1.jpg" alt="prod">
+                <img src="./images/image-product-2.jpg" alt="prod">
+                <img src="./images/image-product-3.jpg" alt="prod">
+                <img src="./images/image-product-4.jpg" alt="prod">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="describe">
+              <h4>SNEAKER COMPANY</h4>
+              <h1>Fall Limited Edition Sneakers</h1>
+              <p>These low-profile sneakers are your perfect casual wear<br> companion. Featuring a durable rubber outer sole, they will<br> withstand everything the weather can offer.</p>
+
+              <div class="purches">
+                <div class="price">
+                  <span style="font-size: 30px; font-weight: bold;">$</span> <h2>199.99</h2>
+                  <h4 id="discount">50%</h4>
+                </div>
+
+                <div class="counter">
+                    <div class="quntiti" id="quant">
+                      <img src="./images/icon-plus.svg" class="plus">
+                      <input type="number" value="1" min="1" id="cinp" readonly max="999">
+                      <img src="./images/icon-minus.svg" class="min">
+                    </div>
+                    <button>Add to Cart</button>
+                </div>              
+              </div>
+            </div>
+        </div>
+    </main>
+  </center>
+<script src="script.js"></script>
+</body>
+</html>
