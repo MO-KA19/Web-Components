@@ -17,3 +17,4 @@ component-7: https://ecstatic-borg-3e0b85.netlify.app
 component-8: https://thirsty-yalow-f9a92b.netlify.app/
 component-9: https://eloquent-franklin-3d29d0.netlify.app/
 component-10: https://heuristic-brown-0297cd.netlify.app/
+component-11: https://heuristic-wright-9458ee.netlify.app/
