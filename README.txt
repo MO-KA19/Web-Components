@@ -18,3 +18,4 @@ component-8: https://thirsty-yalow-f9a92b.netlify.app/
 component-9: https://eloquent-franklin-3d29d0.netlify.app/
 component-10: https://heuristic-brown-0297cd.netlify.app/
 component-11: https://heuristic-wright-9458ee.netlify.app/
+component-12: https://prismatic-bienenstitch-fb256b.netlify.app/
