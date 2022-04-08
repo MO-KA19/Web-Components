@@ -15,8 +15,8 @@ component-5: https://suspicious-dijkstra-14e61a.netlify.app
 component-6: https://angry-bhaskara-d57c29.netlify.app
 component-7: https://ecstatic-borg-3e0b85.netlify.app
 component-8: https://thirsty-yalow-f9a92b.netlify.app/
-component-9: https://eloquent-franklin-3d29d0.netlify.app/
-component-10: https://heuristic-brown-0297cd.netlify.app/
+component-9: https://eloquent-franklin-3d29d0.netlify.app
+component-10: https://heuristic-brown-0297cd.netlify.app
 component-11: https://amazing-cascaron-d9391b.netlify.app
-component-12: https://prismatic-bienenstitch-fb256b.netlify.app/
-component-13: https://venerable-creponne-797dba.netlify.app
+component-12: https://prismatic-bienenstitch-fb256b.netlify.app
+component-13: https://statuesque-dieffenbachia-095014.netlify.app
